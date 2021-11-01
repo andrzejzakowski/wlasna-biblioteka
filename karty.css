@@ -10,14 +10,57 @@ img {
     border-top-right-radius: 10px;
 }
 
+#naglowek {
+    width: 100%;
+    height: auto;
+    background-color: red;
+    color: yellow;
+    text-align: center;
+}
+
+/*-------------------------- Style karty 1 ---------------------------------*/
 #karta_1 {
     width: 25%;
     min-height: 25%;
     background-color: grey;
     border-radius: 10px;
+    float: left;
 }
 
 #opis_karty_1 {
     margin: 2%;
     padding-bottom: 3%;
+    text-align: center;
+}
+
+
+
+
+/*-------------------------- Style karty 2 ---------------------------------*/
+#karta_2 {
+    width: 25%;
+    min-height: 25%;
+    background-color: grey;
+    border-radius: 10px;
+    float: left;
+    margin-left: 15px; /* Tutaj można usunąć, margin tylko dla wyświetlania się kart w głównym pliku na repo */
+}
+
+#tytul_karty_2 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#h2_karty_2 {
+    border: solid lightgrey;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#opis_karty_2 {
+    margin: 2%;
+    padding-bottom: 3%;
+    text-align: center;
 }
