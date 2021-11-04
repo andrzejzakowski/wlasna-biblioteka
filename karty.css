@@ -264,3 +264,66 @@ img {
 .db{
     display: block;
 }
+
+
+
+
+/*-------------------------- Style karty 7 ---------------------------------*/
+#karta_7 {
+    width: 25%;
+    min-height: 25%;
+    background-image:  url("https://static6.depositphotos.com/1000883/564/i/950/depositphotos_5649807-stock-photo-background-for-children-card.jpg");
+    border-radius: 10px;
+    box-shadow:inset 0 0 0 2000px rgba(80, 80, 80, 0.5); /* Tutaj ustawia się kolora nakładany na zdjęcie */
+    float: left;
+    margin-left: 15px; /* Tutaj można usunąć, margin tylko dla wyświetlania się kart w głównym pliku na repo */
+    margin-top: 1%; /* Tutaj można usunąć, margin tylko dla wyświetlania się kart w głównym pliku na repo */
+}
+
+.tab_karta_7 {
+    background-color: rgba(0, 0, 0, 0.5%);
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    width: 28%;
+    
+}
+
+.tab_karta_7:not(:first-child){
+    margin-left: 0.5%;
+    width: 28.5%;
+    
+}
+
+/*Te style są wymagane, ale są użyte w przykładzie karty 6 dlatego zakomentowałem żeby się nie gryzły
+.tabs {
+    display: flex;
+    position: relative;
+}
+
+.tabs::after{
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #87d3b7;
+    bottom: 0;
+    content: "";
+    left: 0;
+}
+
+.tabs-wrapper{
+    width: 100%;
+}
+
+.active{
+    background-color: #87d3b7;
+}
+
+.dn{
+    visibility: visible;
+}
+
+.db{
+    display: block;
+}
+*/
