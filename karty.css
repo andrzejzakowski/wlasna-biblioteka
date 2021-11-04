@@ -220,7 +220,8 @@ img {
 }
 
 .tab {
-    background-color: #eff0f2;
+    background-color: rgba(0, 0, 0, 0.5%);
+    text-align: center;
     padding: 10px;
     cursor: pointer;
     width: 28%;
