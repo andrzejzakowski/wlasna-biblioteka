@@ -1,3 +1,5 @@
+/* Opinia 1 */
+
 #opinia_1{
     height: auto;
     width: 25%;
@@ -30,3 +32,67 @@
     color: orange;
 }
 
+
+
+
+
+
+/* Opinia 2*/
+#opinia_2{
+    height: auto;
+    width: 25%;
+    background-color: cyan;
+    float: left;
+    margin-left: 20px; /*To jest zbędne, dodane tylko na potrzeby wyświetlania opinii*/
+}
+
+#box_opinii{
+    width: 100%;
+    height: auto;
+}
+
+#dane_2{
+    width: 55%;
+    text-align: left;
+    height: auto;   
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+#zdjecie_opinii{
+    height: 70px;
+    width: 70px;
+    float: left;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    
+}
+
+
+#gwiazdki_2 {
+    height: auto;
+    width: 55%;
+    text-align: left;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+
+#tekst_opinii_2{
+    height: auto;
+    width: 90%;
+    margin: 5%;
+    text-align: center;
+}
+
+/* To jest potrzebne, ale zostało użyte przy opini 1, dlatego komentuje żeby nie kolidowały ze sobą
+.checked {
+    color: orange;
+}
+/*
