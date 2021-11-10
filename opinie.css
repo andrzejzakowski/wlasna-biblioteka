@@ -1,0 +1,32 @@
+#opinia_1{
+    height: auto;
+    width: 25%;
+    background-color: cyan;
+    float: left;
+}
+
+#dane_1{
+    width: 100%;
+    text-align: center;
+    height: auto;   
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#gwiazdki {
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#tekst_opinii_1{
+    height: auto;
+    width: 90%;
+    margin: 5%;
+    text-align: center;
+}
+
+.checked {
+    color: orange;
+}
+
