@@ -96,3 +96,74 @@
     color: orange;
 }
 /*
+
+
+
+
+/* Opinia 3*/
+#opinia_3{
+    height: auto;
+    width: 25%;
+    background-color: cyan;
+    float: left;
+    margin-left: 20px; /*To jest zbędne, dodane tylko na potrzeby wyświetlania opinii*/
+}
+
+#box_opinii_3{
+    height: auto;
+    width: 45%;
+    float: left;
+}
+
+#dane_3{
+    width: 55%;
+    text-align: center;
+    height: auto;   
+    float: inline-end;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+#zdjecie_opinii{
+    height: 70px;
+    width: 70px;
+    float: inline-start;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    
+}
+
+
+#gwiazdki_3 {
+    height: auto;
+    width: 55%;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+    float: inline-end;
+}
+
+
+#tekst_opinii_3{
+    height: auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#box_tekst_3{
+    height: auto;
+    width: 50%;
+    float: left;
+}
+
+/* To jest potrzebne, ale zostało użyte przy opini 1, dlatego komentuje żeby nie kolidowały ze sobą
+.checked {
+    color: orange;
+}
+/*
